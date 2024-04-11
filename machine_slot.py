@@ -14,7 +14,7 @@ def play():
     line_thingy()
   
 
-    if all(item == "7️⃣" for item in results) :
+    if all(item == "7️⃣" for item in results):
       print ("Jackpot ! 💰")
     
     elif all(item == "🍒" for item in results):
