@@ -13,7 +13,6 @@ def play():
     results = symbol_output
     line_thingy()
   
-
     if all(item == "7️⃣" for item in results):
       print ("Jackpot ! 💰")
     
@@ -26,6 +25,7 @@ def play():
         user_ask = input("Do you want to keep playing ? Yes or No\n").lower()
         if user_ask == "yes":
           break
+          
         elif user_ask == "no":
           print("Okay bye")
           quit()
